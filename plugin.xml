@@ -22,16 +22,7 @@
     <source-file src="src/android/ExitApp.java" target-dir="src/org/apache/cordova/exitapp" />
   </platform>
 
-  <!-- ios -->
-  <platform name="ios">
-    <config-file target="config.xml" parent="/*">
-      <feature name="ExitApp">
-        <param name="ios-package" value="ExitApp" />
-      </feature>
-    </config-file>
-    <header-file src="src/ios/ExitApp.h" target-dir="ExitApp"/>
-    <source-file src="src/ios/ExitApp.m" target-dir="ExitApp"/>
-  </platform>
+
   <!-- browser -->
   <platform name="browser">
     <config-file target="config.xml" parent="/*">
